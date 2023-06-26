@@ -1,0 +1,54 @@
+.nav {
+    display: flex;
+    background-color: #3ba481;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+h1 {
+    font-family: sans-serif;
+    color: aliceblue;
+    margin-left: 15px;
+}
+
+.nav-links {
+display: flex;
+flex-direction: row;
+align-items: center;
+list-style-type: none;
+padding: 0;
+margin: 30px;
+
+}
+li {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+li :hover{
+    color: black;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+li:hover {
+    color: bisque;
+}
+.btn {
+    background-color: #03d4a3;
+    border: 2px solid;
+    box-shadow: 2px 3px 2px 1px rgba(0, 0, 0, 2);
+    font-family: sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(135, 234, 201);
+}
